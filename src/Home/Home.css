@@ -1,0 +1,291 @@
+h5 {
+  cursor: pointer;
+  height: 0px;
+}
+
+.inicio {
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inicio p {
+  color: rgb(44, 44, 44);
+  font-size: 50px;
+  margin-bottom: 150px;
+}
+
+button {
+  cursor: pointer;
+  height: 40px;
+  min-width: 110px;
+  color: rgba(248, 248, 248, 0.742);
+  background-color: rgba(0, 0, 0, 0.281);
+  border: solid rgb(255, 255, 255) 2.5px;
+}
+
+.rad {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 25px;
+  height: 15px;
+}
+
+.shop_somb {
+  background-image: url("../images/paraguas.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont_parag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 2em;
+}
+
+.paraguas {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.primero {
+  display: flex;
+}
+
+.shop_puff {
+  background-image: url("../images/comodidad.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.puff {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cont_puff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 2em;
+}
+
+.segundo {
+  display: flex;
+}
+
+.shop_bolsa {
+  background-image: url("../images/compras.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bolsa {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cont_bolsa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 2em;
+}
+
+.tercero {
+  display: flex;
+}
+
+.shop_nap {
+  background-image: url("../images/napi.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nap {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cont_nap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 2em;
+}
+
+.cuarto {
+  display: flex;
+}
+
+.cont_insta {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+.insta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  min-height: 40px;
+  gap: 2px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.insta p {
+  color: rgba(129, 129, 129, 0.742);
+  font-size: small;
+}
+
+.insta span {
+  font-size: 30px;
+}
+
+.noved {
+  font-weight: bolder;
+}
+
+.formulario {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+form input {
+  height: 28px;
+  width: 500px;
+  outline: black;
+}
+
+.formulario button {
+  height: 33px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: black;
+  background: transparent;
+  font-weight: bolder;
+  position: absolute;
+  left: 415px;
+  padding-left: 60px;
+  min-width: auto;
+}
+
+.footer {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 19px gray;
+  border-top: 1px solid rgba(128, 128, 128, 0.55);
+  padding-top: 20px;
+}
+
+.cont_footer {
+  display: flex;
+  height: 200px;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+  padding-bottom: 20px;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.compra {
+  display: flex;
+  flex-direction: column;
+}
+
+.garantia {
+  font-size: 10px;
+}
+
+.redes {
+  font-size: 15px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.logi {
+  align-items: center;
+  display: flex;
+}
